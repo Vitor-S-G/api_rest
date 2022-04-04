@@ -10,7 +10,7 @@
     "start": "node dist/server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Vitor Soares",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.3.0",
