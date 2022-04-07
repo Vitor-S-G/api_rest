@@ -14,14 +14,20 @@ import tokenRoutes from './routes/tokenRoutes';
 import alunoRoutes from './routes/alunoRoutes';
 import fotoRoutes from './routes/fotoRoutes';
 
+this.app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*'); // update to match the domain you will make the request from
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+  next();
+});
+
 const whiteList = [
   'https://consumindo-api.herokuapp.com/',
   'http://localhost:3000',
   'http://localhost:3001',
   'http://localhost:3002',
   'http://localhost:3003',
-  'http://localhost:80',
-  'http://localhost:81',
+  'http://localhost:8080',
+  'http://localhost:8081',
 ];
 
 const corsOptions = {
