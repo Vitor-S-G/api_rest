@@ -42,10 +42,7 @@ class App {
   }
 
   middlewares() {
-    this.app.use((req, res) => {
-      res.header("Access-Control-Allow-Origin", "*")
-      this.app.use.cors(corsOptions)
-    });
+    this.app.use(cors(corsOptions));
     this.app.use(helmet());
     this.app.use(express.urlencoded({ extended: true }));
     this.app.use(express.json());
