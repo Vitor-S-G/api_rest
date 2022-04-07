@@ -17,7 +17,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 **Você pode clonar o projeto e rodá-lo localmente seguindo os passos abaixo**
 
-1. `git clone https://github.com/` para clonar o projeto
+1. `git clone https://github.com/Vitor-S-G/api_rest.git` para clonar o projeto
 2. `npm i` para instalar as dependências do projeto
 3. `npm start`
 4. Acessar [http://localhost:3000](http://localhost:3000) no navegador
