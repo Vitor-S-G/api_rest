@@ -67,4 +67,4 @@ post('http://35.247.222.187/fotos/', arquivo, {
 ```
 
 
-[⬆ Voltar ao topo](#API_REST-CADASTRO-DE-ALUNOS)<br>
+[⬆ Voltar ao topo](#API-REST---CADASTRO-DE-ALUNOS)<br>
