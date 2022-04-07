@@ -1,8 +1,8 @@
 # API REST - CADASTRO DE ALUNOS
 
-![GitHub repo size](https://img.shields.io/github/repo-size/Vitor-S-G/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/Vitor-S-G/README-template?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/Vitor-S-G/README-template?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/Vitor-S-G/api_rest?style=for-the-badge)
+![GitHub top language](https://img.shields.io/github/languages/top/Vitor-S-G/api_rest?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/Vitor-S-G/api_rest?style=for-the-badge)
 
 > Está API Rest foi criada utilizando NodeJ, Express, MariaDB/MySQL (SQL) e o Sequelize, com sistema de login que utiliza JSON Web Tokens (JWT), para cadastrar alunos, com nome, e-mail, idade, peso, altura e foto.
 
